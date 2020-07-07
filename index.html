@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3e741ebe86.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/simple-lightbox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300;600&display=swap" rel="stylesheet">
+    <title>Product Landing Page</title>
+
+
+</head>
+
+<body id="Home">
+
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">ecodoc</h1>
+            <ul class="nav">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+
+    <section class="section-a">
+        <div class="container">
+            <div>
+                <h1>ecodoc</h1>
+                <p>A simple tool built for economics students that translates economic terms into the 11 official languages of South Africa. </p>
+                <a href="*" class="btn">Go to the Website version</a>
+                <a href="*" class="btn">Download it from the Playstore</a>
+            </div>
+            <img src="img/phone.png" alt="image of the splash screen on a mobile phone">
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script>
+        $(function() {
+            const $gallery = $('.gallery a').simpleLightbox();
+        })
+    </script>
+</body>
+</html>
