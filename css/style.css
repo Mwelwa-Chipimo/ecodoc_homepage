@@ -34,12 +34,14 @@ img {
     width: 100%;
 }
 
-.container {
+.contains {
     max-width: 1100px;
     margin: auto;
     overflow: hidden;
     padding: 0 2rem;
 }
+
+/* N A V B A R */
 
 .navbar {
     font-size: 1.2 rem;
@@ -47,39 +49,46 @@ img {
     padding-bottom: 0.3 rem;
 }
 
+.img-responsive {
+  height: auto;
+  width: auto;
+  max-height: 72px;
+  max-width: 250px;
+}
+
+/*
 .navbar .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
   }
-
+*/
 .navbar .logo {
     font-size: 2rem;
     color: var(--secondary-color);
 
   }
 
-.navbar .nav {
+#navbarNav {
     display: flex;
     justify-self: flex-end;
     align-items: center;
     justify-content: center;
 }
 
-.navbar a {
+#navbarNav .nav-item a {
     padding: 0 1rem;
     color: var(--secondary-color);
-
   }
 
-.navbar a:hover {
+#navbarNav .nav-item a:hover {
     color: var(--primary-color);
   }
 
 .section-a {
     margin: 2rem 0;
   }
-
+/*
 .section-a .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -87,7 +96,7 @@ img {
     align-items: center;
     justify-content: center;
   }  
-
+*/
 .section-a h1 {
     font-size: 4rem;
     color: var(--primary-color);
