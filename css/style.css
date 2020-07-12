@@ -30,17 +30,6 @@ ul {
   list-style: none;
 }
 
-.phone-img {
-    width: 100%;
-}
-
-.contains {
-    max-width: 1100px;
-    margin: auto;
-    overflow: hidden;
-    padding: 0 2rem;
-}
-
 /* N A V B A R */
 
 .navbar {
@@ -55,7 +44,6 @@ ul {
   max-height: 72px;
   max-width: 250px;
 }
-
 
 .navbar .logo {
     font-size: 2rem;
@@ -82,7 +70,8 @@ ul {
 /* H E A D E R */
 
 header {
-  margin-bottom: 2rem 0;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 header h1 {
@@ -99,8 +88,6 @@ header p {
   max-height: 700px;
   padding-top: 4rem;
 }
-
-
 
 .header-img {
   height: 100%;
