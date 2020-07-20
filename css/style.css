@@ -96,7 +96,7 @@ header p {
 
 /* Utilities */
 
-.btn {
+.bttn {
     display: inline-block;
     background: var(--secondary-color);
     color: #fff;
@@ -110,4 +110,27 @@ header p {
 .btn:hover {
     background: var(--primary-color);
   }
-  
+
+/* ------------------------------------------------------
+HERO SECTION
+------------------------------------------------------ */
+
+#hero .hero-img {
+  text-align: center;
+}
+
+#hero .hero-img img {
+  width: 70%;
+}
+
+#hero h1 {
+  margin-bottom: 0.5px;
+  font-size: 4rem;
+  font-weight: 525;
+  color: var(--primary-color);
+}
+
+#hero img .play_badge {
+  height: 100%;
+  width: auto;
+}
